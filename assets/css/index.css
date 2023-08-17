@@ -1,0 +1,1026 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "sora", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Major CSS Module  */
+.blue{
+    color: #315EFF;
+}
+.lightgrey{
+    color: #525252;
+}
+.darkgrey{
+    color: #3D4250;
+}
+.bg_blue{
+    background: #315EFF;
+}
+.button{
+    outline: none;
+    border: none;
+    background: #315EFF;
+    border-radius: 30px;
+}
+.anchar_tang{
+    text-decoration: none;
+}
+
+.heading-h4 {
+  background-image: url("../images/heading-bg.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.heading-h4-grey {
+  background-image: url("../images/heading-bg.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #525252;
+  font-weight: 500;
+}
+
+.width_100{
+    width: 100%;
+}
+.width_80{
+    width: 80%;
+}
+.width_90{
+    width: 90%;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.detail{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1300px) {
+    .width_80{
+        width: 90% !important;
+    }
+    .title{
+        font-size: 32px !important;
+    }
+    .heading{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .width_80{
+        width: 90% !important;
+    }
+    .title{
+        font-size: 28px !important;
+    }
+    .heading{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .width_80{
+        width: 95% !important;
+    }
+    .width_90{
+        width: 95%;
+    }
+    .title{
+        font-size: 24px !important;
+    }
+    .heading{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .width_80{
+        width: 98% !important;
+    }
+    .width_90{
+        width: 98%;
+    }
+    .title{
+        font-size: 20px !important;
+    }
+    .heading{
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .hiring_section_img{
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .hiring_section_img{
+        height: 350px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .payroll_main_bubble{
+        width: 500px !important;
+        height: 500px !important;
+        border-radius: 100%;
+        background: #00C9FF;
+        position: absolute;
+        bottom: -50%;
+        left: -10%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .employee_experience_img_section{
+        width: 500px !important;
+        height: 487px !important;
+    }
+    .employee_experience_bubble{
+        width: 500px !important;
+        height: 500px !important;
+        top: -30% !important;
+        left: -10% !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .employee_experience_img_section{
+        width: 450px !important;
+        height: 437px !important;
+    }
+    .employee_experience_bubble{
+        width: 450px !important;
+        height: 450px !important;
+        top: -30% !important;
+        left: -10% !important;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .employee_experience_img_section{
+        width: 400px !important;
+        height: 387px !important;
+    }
+    .employee_experience_bubble{
+        width: 400px !important;
+        height: 400px !important;
+        top: -30% !important;
+        left: -10% !important;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .navlist{
+        display: none !important;
+    }
+    .nav_btn{
+        display: none !important;
+    }
+    .mobile_nav_btn{
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .partner_btn_section_bubble_pink{
+        display: none !important;
+    }
+    .partner_btn_section_bubble{
+        width: 500px !important;
+        height: 500px !important;
+
+    }
+}
+@media screen and (max-width: 970px) {
+    .partner_btn_section_bubble{
+        width: 350px !important;
+        height: 350px !important;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .partner_btn_section_bubble{
+        width: 250px !important;
+        height: 250px !important;
+        top: 100px !important;
+
+    }
+}
+@media screen and (max-width: 520px) {
+    .partner_btn_section_bubble{
+        width: 250px !important;
+        height: 250px !important;
+        top: 130px !important;
+    }
+}
+@media screen and (max-width: 1270px) {
+    .form_boy-pic{
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .hiring_section_bubble_4{
+        left: -200px !important;
+    }
+}
+
+
+/* Major CSS Module end */
+
+.switch_automoto{
+    min-height: 380px;
+}
+
+.hiring_section_img {
+    height: 530px;
+    background: #FFB72B;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.hiring_section_bubble_1{
+    width: 155px;
+    height: 155px;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    bottom: -30px;
+    left: -38%;
+    z-index: -1;
+}
+
+.hiring_section_bubble_2{
+    width: 155px;
+    height: 155px;
+    overflow: hidden;
+    rotate: 110deg;
+    position: absolute;
+    bottom: -70px;
+    right: -100px;
+}
+
+.hiring_section_bubble_2 .bubble_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: rgba(0,201,255,.4);
+    margin-top: 50%;
+}
+
+.hiring_section_bubble_3{
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    rotate:320deg;
+    position: absolute;
+    top: -70px;
+    right: -80px;
+}
+
+.hiring_section_bubble_3 .bubble_3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #A74FFF;
+    margin-top: 50%;
+}
+
+.hiring_section_bubble_4{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    rotate:40deg;
+    position: absolute;
+    top: -70px;
+    left: -300px;
+}
+
+.hiring_section_bubble_4 .bubble_4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #315EFF;
+    margin-top: 50%;
+}
+
+.hiring_section_laptop_img{
+    position: absolute;
+    top: -30px;
+    left: -35%;
+    z-index: 60;
+}
+
+.hiring_section_laptop_img img{
+    width: 100%;
+}
+
+.payroll_section {
+    width: 80%;
+}
+
+.payroll_section_main{
+    background: #F2F2F2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.payroll_img{
+    width: 90%;
+}
+
+.payroll_section_bubble_1{
+    width: 155px;
+    height: 155px;
+    border-radius: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: #A74FFF;
+    z-index: -1;
+}
+
+.payroll_section_bubble_2{
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    rotate:320deg;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    z-index: -1;
+}
+
+.payroll_section_bubble_2 .bubble_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #FFB72B;
+    margin-top: 50%;
+}
+
+.payroll_main_bubble{
+    width: 720px;
+    height: 720px;
+    border-radius: 100%;
+    background: #00C9FF;
+    position: absolute;
+    bottom: -50%;
+    left: -10%;
+    z-index: -1;
+}
+
+.employee_experience_img_section{
+    width: 700px;
+    height: 687px;
+    background: #315EFF;
+    border-radius: 40% 0px 0px 0px;
+    overflow: hidden;
+}
+.employee_experience_section_main{
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    overflow: hidden;
+}
+.employee_experience_bubble{
+    width: 950px;
+    height: 950px;
+    border-radius: 100%;
+    background: #00C9FF;
+    position: absolute;
+    top: -70%;
+    left: -40%;
+}
+.employee_img{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    width: 100%;
+}
+
+.career_section_bubble_1{
+    width: 155px;
+    height: 155px;
+    border-radius: 100%;
+    background: red;
+    position: absolute;
+    bottom: 40px;
+    left: -50px;
+    z-index: -1;
+}
+
+.career_section_bubble_2{
+    width: 155px;
+    height: 155px;
+    overflow: hidden;
+    rotate: 110deg;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.career_section_bubble_2 .bubble_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: rgba(0,201,255,.4);
+    margin-top: 50%;
+}
+
+.career_section_bubble_4{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    rotate:300deg;
+    position: absolute;
+    top: 0px;
+    left: -20%;
+}
+
+.career_section_bubble_4 .bubble_4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #315EFF;
+    margin-top: 50%;
+}
+
+.career_section_bubble_3{
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    rotate:40deg;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+
+.career_section_bubble_3 .bubble_3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #A74FFF;
+    margin-top: 50%;
+}
+
+.nav_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+}
+
+.mobile_nav_btn{
+    display: none;
+}
+
+.mobile_nav_menu{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+}
+
+.mob_nav{
+    box-shadow: 10px 10px 40px grey;
+    background: white;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.mob_nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+    row-gap: 10px;
+}
+
+#menu{
+    display: none;
+}
+
+.footer_logo{
+    width: 227px;
+}
+
+.partner_btn_main{
+    height: 125px;
+}
+
+.partner_btn{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #00C9FF;
+    z-index: 10;
+    border-radius: 150px 150px 150px 0px;
+    overflow: hidden;
+}
+
+.copyright_section_footer{
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.partner_btn_section_bubble{
+    width: 640px;
+    height: 640px;
+    border-radius: 100%;
+    background: #FFB72B;
+    position: absolute;
+    right: -20%;
+    top: -50px;
+}
+
+.partner_btn_section_bubble_pink{
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    background: #F9B8C4;
+    position: absolute;
+    top: 30px;
+    right: 24%;
+}
+
+.form_section{
+    width: 815px;
+    background: #F1F6F9;
+    border-radius: 20px;
+}
+
+.form-group input{
+    color: #525252;
+    border-radius: 30px;
+}
+
+.textarea{
+    border-radius: 20px !important;
+}
+
+.select-box{
+    border-radius: 30px !important;
+}
+
+
+/* Hassan's component CSS */
+
+.section-padding{
+    padding: 8% 12%;
+  }
+  
+  .light-blue-text{
+    width: 70px ;
+    height: 40px;
+    border-radius: 5px;
+    opacity: 0.5px ;
+    Top:7032.41px;
+    Left:865.19px;
+    background-color: #00C9FF;
+    padding: 10px 0px 5px 15px
+  }
+  
+  .our-process-text{
+    color:#525252
+  }
+  .unlock-extraordinary-text{
+     color:#3D4250;
+     font-weight:700;
+     font-size: 40px;
+  }
+  
+  .simple-step-text{
+    font-size:18px ;
+    color: #525252
+  }
+  
+  .div-content-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .img-below-text{
+    margin-top:20px;
+    font-size:18px;
+    color:#525252 ;
+    font-weight:600 
+  }
+  
+  .margin-btm{
+    margin-bottom:30px;
+  }
+  .text-right{
+  text-align: right;
+  }
+  .rotate-img{
+    transform: rotate(2.42deg);
+    width: 70%;
+    border-radius: 33px;
+  }
+  .video-div{
+    position: relative;
+    margin-top: 5rem;
+    background-color: #315eff;
+  }
+  .blue-background{
+    background-color: #315EFF;
+  }
+  .no-padding-left{
+    padding-left: 0px;
+  }
+  .no-padding-right{
+    padding-right: 0px;
+  }
+  .responsive-video{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius:109px;
+  }
+  .white-area{
+    background-color: white;
+    height: 97px;
+  }
+  .video-text-area{
+    width: 100%;
+    
+    padding: 80px 68px;
+    padding-right: 255px;
+    background-image: url("../hassan_component_imgs/elipse-bot-right.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .white-text{
+    color:#FFFFFF;
+  }
+  .yellow-text{
+    color:#FFB72B
+  }
+  .blue-text{
+    color:#315EFF
+  }
+  .abosulte-div{
+    position: absolute;
+    top: -58px;
+    left: 0;
+    width: 44%;
+    height: 108%;
+  }
+  .relative-video-div{
+    position: relative;
+  top: 10px;
+  left: 20px;
+  }
+  .main-template-heading{
+   
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  
+  
+  }
+  .light-blue-span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:relative;
+  
+    background-color: #00C9FF;
+  }
+  .number-span{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .second-heading{
+    font-weight: 700;
+    font-size:40px;
+  }
+  .detail-text{
+    font-size:18px
+  }
+  .sky-blue-text{
+   background-color: #00C9FF;
+   border-radius: 5px;
+   
+  }
+  .white-boxes{
+    background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      width: 360px;
+      background-image: url("../hassan_component_imgs/03.png");
+      background-position: bottom right
+  }
+  .margin-right-twenty{
+    margin-right: 20px;
+  }
+  .number-three-span{
+    background-image: url("../hassan_component_imgs/03.png");
+    background-position: bottom right 15px;
+    background-repeat: no-repeat;
+    background-size: 117px;
+  }
+  .number-two-span{
+    background-image: url("../hassan_component_imgs/02.png");
+    background-position: bottom right 15px;
+    background-repeat: no-repeat;
+    background-size: 117px;
+  }
+  .number-one-span{
+    background-image: url("../hassan_component_imgs/01.png");
+    background-position: bottom right 15px;
+    background-repeat: no-repeat;
+    background-size: 95px;
+  }
+  .mid-heading{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .grey-text{
+    color:#525252
+  }
+  .third-last-section-background{
+  background-image: url("../hassan_component_imgs/elipseblue.png");
+  background-position: bottom left ;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #315EFF;
+    border-color: #315EFF #315EFF #00C9FF !important;
+    border-width: 2px;
+  }
+  .nav-link, .nav-link.active, .nav-link:hover {
+    color: #00C9FF;
+  }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #315EFF #315EFF #dee2e6;
+    isolation: isolate;
+  }
+  .text-bold{
+    font-weight: bold;
+  }
+  .yellow-half-circle{
+    position: absolute;
+      top: 36px;
+      width: 100px;
+      left: -4px;
+  }
+  .position-relative{
+    position:relative;
+  }
+  .red-circle-background-image{
+    background-image: url("../hassan_component_imgs/Ellipse\ 7.png");
+    background-position: bottom left ;
+    background-repeat: no-repeat;
+  }
+  .light-green-half-circle{
+    position: relative;
+    bottom: 173px;
+    left: 20px;
+  }
+  .light-red-circle{
+    position: relative;
+    width: 100px;
+    right: 117px;
+    bottom: 36px;
+  }
+  .margin-bottom-100{
+    margin-bottom:100px
+  }
+  
+  .show-on-mobile{
+    display: none;
+  }
+  @media only screen and (min-width: 500px) and (max-width: 767) {
+    .abosulte-div{
+      height: 37%;
+      width: 85%;
+  
+    }
+    .video-div .no-padding-right{
+      height:400px
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .white-boxes{
+      width:100%;
+      margin-bottom:20px
+    }
+    .our-process-text{
+      margin-top:25px;
+    }
+    .nav-tabs-modified{
+      margin-top: 30px;
+    }
+    .hide-on-mobile{
+      display: none;
+    }
+    .show-on-mobile{
+      display: block;
+    }
+    .light-green-half-circle{
+      display: none;
+    }
+    .light-red-circle{
+      display: none;
+    }
+    .yellow-half-circle{
+      display: none;
+    }
+    .rotate-img {
+      width: 100%;
+      
+    }
+    .div-two{
+      order:2
+    }
+   .div-one{
+    order:1
+   }
+    .video-div .no-padding-right{
+      height:350px
+    }
+    .second-heading{
+      font-size:25px;
+    }
+    .detail-text{
+      font-size:16px
+    }
+    .mob-exclude  {
+      display: none;
+    }
+    .unlock-extraordinary-text{
+      font-size: 25px
+    }
+    .video-text-area {
+      padding-right:0px;
+      background-image: url("../hassan_component_imgs/Ellipse\ 4.png");
+      padding: 34px
+    }
+    .abosulte-div{
+      height: 30%;
+      width: 85%;
+  
+    }
+    
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .abosulte-div {
+      position: absolute;
+      top: -60px;
+      left: 0;
+      width: 44%;
+      height: 107%;
+  }
+    .rotate-img{
+      width: 75%;
+    }
+    .white-boxes{
+      width:242px;
+    }
+    .margin-right-twenty{
+      margin-right: 8px;
+    }
+    .video-text-area {
+      padding-right:0px;
+      background-image: url("../hassan_component_imgs/Ellipse\ 4.png");
+      padding: 34px
+    }
+    .second-heading{
+      font-size:25px;
+    }
+    .detail-text{
+      font-size:16px
+    }
+    .img-below-text {
+      font-size:16px;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1210px) {
+    .white-boxes{
+      width: 262px !important
+    }
+    .margin-right-twenty{
+      margin-right: 8px;
+    }
+    .abosulte-div {
+      position: absolute;
+      top: -64px;
+      left: 0;
+      width: 44%;
+      height: 105%;
+  }
+  .simple-step-text {
+    font-size: 16px;
+    
+  }
+  }
+  @media only screen and (min-width: 1211px) and (max-width: 1444px) {
+    .abosulte-div{
+      position: absolute;
+      top: -75px;
+      left: 0;
+      width: 44%;
+      height: 106%;
+    }
+    .white-boxes{
+      width: 312px !important;
+    }  
+    .margin-right-twenty{
+      margin-right: 5px;
+    } 
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .abosulte-div{
+      position: absolute;
+      top: -56px;
+      left: 0;
+      width: 44%;
+      height: 105%;
+    }
+  }
+  @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .abosulte-div{
+      position: absolute;
+      top: -73px;
+      left: 0;
+      width: 44%;
+      height: 108%;
+  }
+  .light-red-circle {
+    position: relative;
+    width: 100px;
+    right: 117px;
+    top: 287px;
+    left: -219px;
+  }
+  .white-boxes{
+    width:400px !important
+  }
+  }
+  @media only screen and (min-width: 1801px) and (max-width: 2000px){
+    .abosulte-div {
+      position: absolute;
+      top: -70px;
+      left: 0;
+      width: 44%;
+      height: 108%;
+  }
+  .light-red-circle {
+    position: relative;
+    width: 100px;
+    right: 117px;
+    top: 287px;
+    left: -219px;
+  }
+    .white-boxes{
+      width: 400px !important;
+    }
+  }
+
+/* Hassan's component CSS End */

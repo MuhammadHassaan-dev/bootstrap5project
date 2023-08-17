@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="d-flex justify-content-center width_100 bg-white" style="height: 100px; position:sticky;top: 0px; left: 0px;z-index: 99;">
+        <div class="d-flex justify-content-between align-items-center width_90">
+          <div>
+            <img src="./assets/images/logo.png" alt="" />
+          </div>
+          <div class="navlist">
+            <ul class="d-flex mb-0" style="column-gap: 25px; color: #3D4250;list-style-type: none;">
+              <li>Home</li>
+              <li>Products</li>
+              <li>Why Us</li>
+              <li>About Us</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="nav_btn" style="column-gap: 15px;">
+            <button class="py-2 px-5 button" style="background-color: #FFB72B;color: #525252;">Schedule Your No Obligation Consultation</button>
+            <button class="py-2 px-5 text-white button" style="background-color: #00C9FF;">Login</button>
+          </div>
+          <div class="mobile_nav_btn" onclick="menuOpen()">
+            <img src="./assets/images/navbar_mobile_icon.png" alt="" />
+          </div>
+        </div>
+        </div>
+        <div id="menu">
+        <div class="mobile_nav_menu">
+          <div class="mob_nav pb-5 pt-3">
+            <div class="d-flex justify-content-end px-3">
+              <div class="d-flex justify-content-center align-items-center text-white rounded-circle" style="background-color: red; width: 20px; height: 20px;" onclick="menuClose()">
+                <i class="fa-solid fa-x" style="font-size: 12px;"></i>
+              </div>
+            </div>
+            <ul class="" style="color: #3D4250;list-style-type: none;">
+              <li>Home</li>
+              <li>Products</li>
+              <li>Why Us</li>
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>
+                <button class="py-2 px-5 button" style="background-color: #FFB72B;color: #525252;">Schedule Your No Obligation Consultation</button>
+                <button class="py-2 px-5 text-white button" style="background-color: #00C9FF;">Login</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row video-div" style="margin-top: 100px;">
+        <div class="col-12 col-md-5 col-lg-5  no-padding-right ">
+            <div class="abosulte-div">
+              <video
+              src="https://www.youtube.com/embed/QGAMTlI6XxY"
+              class="embed-responsive-item responsive-video "
+              autoplay="true"
+              controls="true"
+            ></video>
+            </div>
+            
+            
+        </div>
+        <div class="col-12 col-md-7 col-lg-7 no-padding-left">
+          <!-- <div class="white-area">
+
+          </div> -->
+          <div class="video-text-area">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="margin-btm">
+                  <p class="our-process-text white-text">
+                    <span class="light-blue-text">WHAT </span>WE OFFER?
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="margin-btm">
+                  <h1 class=" second-heading white-text">
+                    An all-in-one HR management system for every business size
+                    and industry.
+                  </h1>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="margin-btm">
+                  <p class="detail-text white-text">
+                    AutomotoHR brings all your HR functions together in one
+                    convenient place, making it effortless to handle every
+                    aspect of the employee journey from hiring to training and
+                    beyond. So take the leap and redefine the workplace
+                    experience by knowing the features you need.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="margin-btm">
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                      Efficient
+                      <span class="yellow-text">PEOPLE OPERATIONS</span> for streamlined HR
+                      management.
+                    </p>
+                  </div>
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                       Comprehensive
+                      <span class="yellow-text">RECRUITMENT</span> tools for attracting top talent.
+                    </p>
+                  </div>
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                       Seamless
+                      <span class="yellow-text">HR ELECTRONIC ONBOARDING</span> for a smooth start.
+                    </p>
+                  </div>
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                      Robust
+                     <span class="yellow-text">EMPLOYEE MANAGEMENT</span> features for adequate
+                     control.
+                   </p>
+                  </div>
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                      Automated
+                     <span class="yellow-text">PAYROLL</span> system for accurate processing.
+                   </p>
+                  </div>
+                  <div class="d-flex"><i class="bi bi-check-circle yellow-text me-3" ></i> 
+                    <p class="detail-text white-text">
+                      Ensuring
+                     <span class="yellow-text">COMPLIANCE</span> with regulations and requirements.
+                   </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row get-started">
+              <div
+                class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-0 text-center"
+              >
+              <button class="button p-3 explore_btn bg-white mt-4" style="color: #315EFF;">
+                Explore Our Solutions
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="width_100 d-flex flex-column align-items-center">
+        <div class="width_80">
+          <div
+            class="width_100 d-flex flex-column align-items-center justify-content-center py-5"
+          >
+            <h1 class="lightgrey heading-h4-grey heading">
+              WHY SHOULD YOU SWITCH TO AUTOMOTOHR?
+            </h1>
+            <p class="darkgrey text-center mt-3 title px-sm-5 px-2 mx-sm-3 mx-0 title">
+              Recruit, Onboard, and Manage all of your Employees in one place.
+              Hire to Retire Talent Management platform.
+            </p>
+          </div>
+          <div class="onboarding_section py-5">
+            <div class="row d-flex flex-lg-row flex-column align-items-center">
+              <div class="col-lg-6 col-12 d-lg-none d-block">
+                <div
+                  class="w-full d-flex justify-content-lg-end justify-content-center"
+                >
+                  <img
+                    src="./assets/images/hiring_section_img.png"
+                    class="d-lg-none d-block width_90"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-12 d-flex justify-content-center">
+                <div
+                  class="switch_automoto width_80 position-relative d-lg-block d-flex flex-column align-items-center"
+                >
+                  <h1 class="lightgrey heading-h4-grey heading">
+                    ONBOARDING AND HIRING
+                  </h1>
+                  <p class="darkgrey mt-3 title text-lg-start text-center title">
+                    With advanced recruiting tools, discover and onboard the
+                    right talent faster.
+                  </p>
+                  <p class="lightgrey mt-3 text-lg-start text-center detail">
+                    Ready to build a rockstar team without hassle? Say hello to
+                    AutomotoHR, the ultimate hiring solution. It swiftly finds,
+                    evaluates, and onboards top talent in a flash. With
+                    impeccable applicant tracking and features like automated
+                    HR, electronic self onboarding, and an employee dashboard,
+                    managing your dream team is a breeze. So get ready to hire
+                    like a boss with AutomotoHR!
+                  </p>
+                  <button class="button p-3 explore_btn text-white mt-4">
+                    Explore Our Solutions
+                    <i class="fa-solid fa-arrow-right ps-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12 d-lg-block d-none">
+                <div
+                  class="w-full d-flex justify-content-lg-end justify-content-center"
+                >
+                <div
+                    class="position-relative hiring_section_img col-9 d-lg-block d-none"
+                  >
+                  <div class="hiring_section_laptop_img">
+                    <img
+                        src="./assets/images/hiring_section_img.png"
+                        alt=""
+                        />
+                    </div>
+                        <div class="hiring_section_bubble_4 d-lg-block d-none">
+                          <div class="bubble_4"></div>
+                        </div>
+                    <div class="hiring_section_bubble_1"></div>
+                    <div class="hiring_section_bubble_2">
+                      <div class="bubble_2"></div>
+                    </div>
+                    <div class="hiring_section_bubble_3">
+                      <div class="bubble_3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="payroll_section_main py-5 width_100 d-flex justify-content-center position-relative">
+        <div class="row d-flex flex-lg-row flex-column align-items-center width_80">
+            <div class="col-lg-6 col-12">
+              <div class="position-relative">
+                <img
+                  src="./assets/images/payroll_section_img.png"
+                  class="payroll_img"
+                  alt=""
+                />
+                <div class="payroll_section_bubble_1 d-lg-block d-none"></div>
+                <div class="payroll_section_bubble_2 d-lg-block d-none">
+                  <div class="bubble_2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex justify-content-center">
+              <div
+                class="switch_automoto position-relative d-lg-block d-flex flex-column align-items-center width_80"
+              >
+                <h1 class="lightgrey heading-h4-grey">
+                  TIME, PAYROLL, AND BENEFITS
+                </h1>
+                <p class="darkgrey mt-3 title text-lg-start text-center">
+                  One platform for time tracking, benefits, and payroll to
+                  simplify workload.
+                </p>
+                <p class="lightgrey mt-3 text-lg-start text-center">
+                  With AutomotoHR, juggling multiple HR tasks is a thing of
+                  the past. The remarkable platform lets you effortlessly
+                  track hours worked, handle benefits enrollment, and
+                  seamlessly process payroll, all in one place. No more
+                  tedious data double entry or manual approval headaches—just
+                  smooth sailing towards easy and precise payroll management
+                  for both you and your employees.
+                </p>
+                <button class="button p-3 explore_btn text-white mt-4">
+                  Explore Our Solutions
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="payroll_main_bubble d-lg-block d-none"></div>
+      </div>
+      <div
+      class="employee_experience_section_main position-relative my-lg-0 my-5 width_100 d-flex justify-content-end"
+    >
+      <div class="employee_experience_section width_90">
+        <div
+          class="row d-flex align-items-center justify-content-lg-between justify-content-center"
+        >
+        <div class="col-lg-6 col-12 d-lg-none d-block">
+          <div class="position-relative">
+            <img
+              src="./assets/images/employee_experience_img.png"
+              class="payroll_img"
+              alt=""
+            />
+            <div class="payroll_section_bubble_1 d-lg-block d-none"></div>
+            <div class="payroll_section_bubble_2 d-lg-block d-none">
+              <div class="bubble_2"></div>
+            </div>
+          </div>
+        </div>
+          <div class="col-xl-5 col-lg-6 col-12 d-flex justify-content-center">
+            <div
+              class="switch_automoto position-relative d-lg-block d-flex flex-column align-items-center y-5 my-5 width_80"
+            >
+              <h1 class="lightgrey heading-h4-grey">
+                EMPLOYEE EXPERIENCE & PERFORMANCE
+              </h1>
+              <p class="darkgrey mt-3 title text-lg-start text-center">
+                Take your organization's culture to new heights with a smart
+                suite of tools.
+              </p>
+              <p class="lightgrey mt-3 text-lg-start text-center">
+                Nurturing a strong company culture begins with actively
+                engaging and investing in your employees' development. With
+                AutomotoHR, you gain access to a comprehensive set of tools
+                designed to collect feedback, amplify employee satisfaction,
+                and facilitate personal and professional growth. This
+                results in a vibrant and thriving organization that attracts
+                top talent to join its ranks.
+              </p>
+              <button class="button p-3 explore_btn text-white mt-4">
+                Explore Our Solutions
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 d-lg-flex justify-content-end d-none">
+            <div
+              class="position-relative d-lg-flex d-none"
+            >
+              <div
+                class="employee_experience_img_section position-relative"
+              >
+                <div class="employee_experience_bubble"></div>
+              </div>
+              <img
+                src="./assets/images/employee_experience_img.png"
+                class="employee_img"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="payroll_section_main py-5 width_100 d-flex justify-content-center position-relative">
+      <div class="row d-flex flex-lg-row flex-column align-items-center width_80">
+          <div class="col-lg-6 col-12">
+            <div class="position-relative">
+              <img
+                src="./assets/images/monitoring_section_img.png"
+                class="payroll_img"
+                alt=""
+              />
+              <div class="payroll_section_bubble_1 d-lg-block d-none"></div>
+              <div class="payroll_section_bubble_2 d-lg-block d-none">
+                <div class="bubble_2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 d-flex justify-content-center">
+            <div
+              class="switch_automoto position-relative d-lg-block d-flex flex-column align-items-center width_80"
+            >
+              <h1 class="lightgrey heading-h4-grey">
+                VACATION & TIME OFF MONITORING
+              </h1>
+              <p class="darkgrey mt-3 title text-lg-start text-center">
+                Eliminate complexity and save time by simplifying vacation
+                management.
+              </p>
+              <p class="lightgrey mt-3 text-lg-start text-center">
+                Say goodbye to manual vacation tracking and endless
+                spreadsheets. From submitting requests to approving and
+                tracking time off balances, AutomotoHR takes care of it all,
+                ensuring accurate records and a smoother workflow. Simplify
+                your vacation, leaves, and paid time off tracking with
+                AutomotoHR, and enjoy peace of mind knowing everything is
+                organized and accounted for.
+              </p>
+              <button class="button p-3 explore_btn text-white mt-4">
+                Explore Our Solutions
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="payroll_main_bubble d-lg-block d-none"></div>
+    </div>
+    <div
+      class="employee_experience_section_main position-relative my-lg-0 my-5 width_100 d-flex justify-content-end"
+    >
+      <div class="employee_experience_section width_90">
+        <div
+          class="row d-flex align-items-center justify-content-lg-between justify-content-center"
+        >
+        <div class="col-lg-6 col-12 d-lg-none d-block">
+          <div class="position-relative">
+            <img
+              src="./assets/images/succeed_section_img.png"
+              class="payroll_img"
+              alt=""
+            />
+            <div class="payroll_section_bubble_1 d-lg-block d-none"></div>
+            <div class="payroll_section_bubble_2 d-lg-block d-none">
+              <div class="bubble_2"></div>
+            </div>
+          </div>
+        </div>
+          <div class="col-xl-5 col-lg-6 col-12 d-flex justify-content-center">
+            <div
+              class="switch_automoto position-relative d-lg-block d-flex flex-column align-items-center y-5 my-5 width_80"
+            >
+              <h1 class="lightgrey heading-h4-grey">
+                TRANSFORM, EMPOWER & SUCCEED
+              </h1>
+              <p class="darkgrey mt-3 title text-lg-start text-center">
+                Optimize employee experience, performance, goals,
+                  satisfaction & well-being.
+              </p>
+              <p class="lightgrey mt-3 text-lg-start text-center">
+                Unleash the true potential of your organization with
+                  AutomotoHR's robust feature set, designed to optimize
+                  employee experience and revolutionize performance
+                  management. Drive goal alignment throughout your
+                  workforce, gather invaluable feedback through employee
+                  satisfaction surveys and prioritize employee wellbeing to
+                  cultivate a supportive work environment.
+              </p>
+              <button class="button p-3 explore_btn text-white mt-4">
+                Explore Our Solutions
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 d-lg-flex justify-content-end d-none">
+            <div
+              class="position-relative d-lg-flex d-none"
+            >
+              <div
+                class="employee_experience_img_section position-relative"
+              >
+                <div class="employee_experience_bubble" style="background: #FFB72B;"></div>
+              </div>
+              <img
+                src="./assets/images/succeed_section_img.png"
+                class="employee_img"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="career_section_main py-5 width_100 d-flex justify-content-center" style="background-color: #F1F6F9;">
+      <div class="width_80">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="width_100 position-relative d-flex justify-content-center" style="z-index: 5;">
+                <img src="./assets/images/career_section_img.png"  class="width_90" alt="">
+                <div class="career_section_bubble_1 d-lg-flex d-none"></div>
+                <div class="career_section_bubble_2 d-lg-flex d-none">
+                  <div class="bubble_2"></div>
+                </div>
+                <div class="career_section_bubble_3 d-lg-flex d-none">
+                  <div class="bubble_3"></div>
+                </div>
+                <div class="career_section_bubble_4 d-lg-block d-none">
+                  <div class="bubble_4"></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 ps-5 width_100 d-flex justify-content-center">
+            <div class="switch_automoto position-relative ps-3 width_80 d-flex flex-column align-items-center justify-content-center">
+              <h1 class="lightgrey heading-h4-grey">
+                ONBOARDING AND HIRING
+              </h1>
+              <p class="darkgrey mt-3 title text-lg-start text-center">
+                Get a slick full company career website that dazzles on
+                desktop & mobile.
+              </p>
+              <p class="lightgrey mt-3 text-lg-start text-center">
+                Ready to build a rockstar team without hassle? Say hello to
+                AutomotoHR, the ultimate hiring solution. It swiftly finds,
+                evaluates, and onboards top talent in a flash. With
+                impeccable applicant tracking and features like automated
+                HR, electronic self onboarding, and an employee dashboard,
+                managing your dream team is a breeze. So get ready to hire
+                like a boss with AutomotoHR!
+              </p>
+              <button class="button p-3 explore_btn text-white mt-4">
+                Explore Our Solutions
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-padding our_process_section">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="margin-btm">
+            <p class="our-process-text text-center">
+              <span class="light-blue-text">OUR &nbsp;</span>PROCESS
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 text-center">
+          <div class="margin-btm">
+            <p class="second-heading">
+              Unlock extraordinary HR management for your organization.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="margin-btm">
+            <p class="text-center simple-step-text">
+              Take these simple steps to achieve success today!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row margin-btm">
+        <div
+          class="col-sm-12 col-md-2 col-lg-2 text-center div-content-center"
+        >
+          <div>
+            <img src="./assets/hassan_component_imgs//Group 23.png" />
+          </div>
+          <p class="img-below-text">Get in touch with Us</p>
+        </div>
+        <div class="col-lg-1 col-md-1 mob-exclude div-content-center">
+          <img src="./assets/hassan_component_imgs//section-ten-image-2.png" />
+        </div>
+        <div
+          class="col-sm-12 col-md-2 col-lg-2 text-center div-content-center"
+        >
+          <div>
+            <img src="./assets/hassan_component_imgs//Group 6563.png" />
+          </div>
+          <p class="img-below-text">See a Personalized Product Demo</p>
+        </div>
+        <div class="col-lg-1 col-md-1 mob-exclude div-content-center">
+          <img src="./assets/hassan_component_imgs//section-ten-image-2.png" />
+        </div>
+        <div
+          class="col-sm-12 col-md-2 col-lg-2 text-center div-content-center"
+        >
+          <div>
+            <img src="./assets/hassan_component_imgs//Group 6564.png" />
+          </div>
+          <p class="img-below-text">Begin your Implementation Process</p>
+        </div>
+        <div class="col-lg-1 col-md-1 mob-exclude div-content-center">
+          <img src="./assets/hassan_component_imgs//section-ten-image-2.png" />
+        </div>
+        <div
+          class="col-sm-12 col-md-2 col-lg-2 text-center div-content-center"
+        >
+          <div>
+            <img src="./assets/hassan_component_imgs//Group 26.png" />
+          </div>
+          <p class="img-below-text">Get in touch with Us</p>
+        </div>
+      </div>
+      <div class="row get-started">
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-0 text-center"
+        >
+        <button class="button p-3 explore_btn text-white mt-4">
+          Explore Our Solutions
+          <i class="fa-solid fa-arrow-right ps-3"></i>
+        </button>
+        </div>
+      </div>
+    </div>
+    <div class="section-padding blue-background third-last-section-background">
+      <div class="row margin-bottom-100">
+        <div class="col-sm-12 col-md-6 col-lg-6 div-two">
+          <div class="col-sm-12 hide-on-mobile">
+            <div class="margin-btm">
+              <p class="our-process-text  white-text">
+                <span class="light-blue-text">INNO </span>VATING HR
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 hide-on-mobile">
+            <div class="margin-btm">
+              <p class="second-heading white-text ">
+                HR Practices Redefined & Elevated by Innovation
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 ">
+            <div>
+              <nav class="nav nav-tabs nav-tabs-modified" id="nav-tab" role="tablist">
+                <a
+                  class="nav-link nav-link-modified active"
+                  id="nav-home-tab text-bold"
+                  data-bs-toggle="tab"
+                  href="#nav-home"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                  >Our Mission</a
+                >
+                <a
+                  class="nav-link nav-link-modified text-bold "
+                  id="nav-profile-tab"
+                  data-bs-toggle="tab"
+                  href="#nav-profile"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                  >Our Vision</a
+                >
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active mt-3"
+                  id="nav-home"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-tab"
+                >
+                <div class="col-sm-12 show-on-mobile">
+                  <div class="margin-btm">
+                    <p class="our-process-text  white-text">
+                      <span class="light-blue-text">INNO </span>VATING HR
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-12 show-on-mobile">
+                  <div class="margin-btm">
+                    <p class="second-heading white-text ">
+                      HR Practices Redefined & Elevated by Innovation
+                    </p>
+                  </div>
+                </div>
+                 <p class="detail-text white-text">
+                  Our mission is to revolutionize talent acquisition and drive
+                  business growth efficiently by offering organizations a
+                  cutting-edge HR software solution. Unlike half-baked
+                  onboarding solutions, we provide a modern and mobile user
+                  experience, empowering companies with customization options
+                  and seamless integration. By delivering these advanced
+                  features, we aim to assist organizations in managing talent
+                  acquisition effectively, enhancing their productivity, and
+                  enabling them to thrive in a competitive business landscape.
+                 </p>
+                  
+                </div>
+                <div
+                  class="tab-pane fade mt-3"
+                  id="nav-profile"
+                  role="tabpanel"
+                  aria-labelledby="nav-profile-tab"
+                >
+                <div class="col-sm-12 show-on-mobile">
+                  <div class="margin-btm">
+                    <p class="our-process-text  white-text">
+                      <span class="light-blue-text">INNO </span>VATING HR
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-12 show-on-mobile">
+                  <div class="margin-btm">
+                    <p class="second-heading white-text ">
+                      HR Practices Redefined & Elevated by Innovation
+                    </p>
+                  </div>
+                </div>
+                <p class="detail-text white-text">
+                  Our mission is to revolutionize talent acquisition and drive
+                  business growth efficiently by offering organizations a
+                  cutting-edge HR software solution. Unlike half-baked
+                  onboarding solutions, we provide a modern and mobile user
+                  experience, empowering companies with customization options
+                  and seamless integration. By delivering these advanced
+                  features, we aim to assist organizations in managing talent
+                  acquisition effectively, enhancing their productivity, and
+                  enabling them to thrive in a competitive business landscape.
+                 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 position-relative div-one">
+          <div class="text-right ">
+            <img class="rotate-img" src="./assets/hassan_component_imgs/image_8.png" />
+            <img src="./assets/hassan_component_imgs//Ellipse 9.png" class="light-green-half-circle"/>
+            <img src="./assets/hassan_component_imgs//Ellipse 10.png"  class="light-red-circle"/>
+          </div>
+          <img src="./assets/hassan_component_imgs//Ellipse 8.png" class="yellow-half-circle" />
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="margin-btm">
+             <p class="white-text main-template-heading ">Notable Benefits</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 white-boxes margin-right-twenty number-one-span">
+           <div class="row">
+               <div class="col-3">
+                   <div class="light-blue-span white-text"><span class="number-span" style="color: white">1</span></div>
+               </div>
+               <div class="col-9">
+                  <p class="mid-heading grey-text">Save Time to Do More</p>
+               </div>
+           </div>
+           <div class="row">
+            <div class="col-sm-12">
+               <p class="detail-text grey-text">Streamline your HR operations & empower your team to accomplish more with a cutting-edge software solution.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 white-boxes margin-right-twenty number-two-span">
+          <div class="row">
+              <div class="col-3">
+                  <div class="light-blue-span white-text"><span class="number-span" style="color: white">2</span></div>
+              </div>
+              <div class="col-9">
+                 <p class="mid-heading grey-text">Reduce Human Errors</p>
+              </div>
+          </div>
+          <div class="row">
+           <div class="col-sm-12">
+              <p lass="detail-text grey-text">Ensure error-free human resource operations with an advanced set of tools for enhanced accuracy & efficiency!</p>
+           </div>
+       </div>
+       </div>
+       <div class="col-sm-12 col-md-4 col-lg-4 white-boxes number-three-span">
+        <div class="row">
+            <div class="col-3">
+                <div class="light-blue-span white-text"><span class="number-span"style="color: white">3</span></div>
+            </div>
+            <div class="col-9">
+               <p class="mid-heading grey-text">Create Unbeatable Culture </p>
+            </div>
+        </div>
+        <div class="row">
+         <div class="col-sm-12">
+            <p lass="detail-text grey-text">Foster an unbeatable company culture with an integrated HR solution tailored to your organization's needs!</p>
+            
+         </div>
+         
+     </div>
+     </div>
+      </div>
+    </div>
+
+    <div class="form_section_main width_100 d-flex flex-column align-items-center mt-5">
+      <div class="width_80 d-flex">
+        <img src="./assets/images/boy.png" class="form_boy-pic d-lg-flex d-none" alt="">
+        <div class="form_section px-5 d-flex flex-column justify-content-center">
+          <div class="d-flex flex-column align-items-center mb-5">
+            <h1 class="lightgrey heading-h4-grey">
+              Want the Inside Secret on People Operations?
+            </h1>
+            <p class="darkgrey title">
+              Watch AutomotoHR in action
+            </p>
+          </div>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+            </div>
+            <div class="form-group mt-4">
+              <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+            </div>
+            <div class="form-group mt-4">
+              <input type="text" class="form-control" id="phone-number" placeholder="Phone Number*" name="phone_number">
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-6 col-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="title" placeholder="title*" name="title">
+                </div>
+              </div>
+              <div class="col-sm-6 col-12 mt-sm-0 mt-4">
+                <select class="form-select select-box" aria-label="Default select example">
+                  <option selected>Employee Count*</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group mt-4">
+              <input type="text" class="form-control" id="company-name" placeholder="Company Name*" name="company_name">
+            </div>
+            <div class="form-group mt-4">
+              <textarea class="form-control textarea" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="button p-3 explore_btn text-white mt-4 width_100 mb-lg-0 mb-5">
+              Schedule Your No Obligation Consultation
+              <i class="fa-solid fa-arrow-right ps-3"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="width_100" style="height: 120px;"></div>
+    </div>
+
+    <div class="footer width_100 d-flex flex-column align-items-center pb-5" style="background-color: #315EFF;">
+      <div class="partner_btn_main position-relative width_80">
+        <div class="partner_btn px-5">
+            <div class="position-relative">
+              <div class="partner_btn_section_bubble"></div>
+              <div class="partner_btn_section_bubble_pink"></div>
+            </div>
+            <div class="width_100 d-flex flex-md-row flex-column justify-content-md-between justify-content-center align-items-center px-5" style="height: 100%;">
+              <h1 class="title text-white text-md-start text-center" style="max-width: 550px;">Can we send you a check every month?</h1>
+              <button class="button py-3 explore_btn me-4 mt-md-0 mt-4" style="z-index: 10; background: white; color: #315EFF;width: 290px;">
+                Become a Partners
+                <i class="fa-solid fa-arrow-right ps-3"></i>
+              </button>
+            </div>
+        </div>
+      </div>
+      <div class="width_80 d-flex flex-wrap justify-content-lg-between align-items-lg-start
+      align-items-center flex-lg-row flex-column mt- pt-5">
+          <div class="footer_logo mt-4">
+            <img src="./assets/images/footer_logo.png" alt="">
+            <p class="text-white text-end">
+              Hire & Manage Great People AutomotoHR.com
+            </p>
+            <div class=" mt-5 d-flex flex-column align-items-lg-start align-items-center">
+              <h1 class="text-white" style="font-size: 22px; font-weight: 600;">Stay Connect</h1>
+              <div class="d-flex align-items-center mt-2" style="column-gap: 10px;">
+                <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <ul class="text-white mt-lg-0 mt-5 d-flex flex-column align-items-lg-start align-items-center" style="list-style-type: none;">
+              <li>Solutions</li>
+              <li class="mt-3">Privacy Policy</li>
+              <li class="mt-3">Login</li>
+            </ul>
+          </div>
+          <div class="mt-4">
+            <ul class="text-white mt-lg-0 mt-5 d-flex flex-column align-items-lg-start align-items-center" style="list-style-type: none;">
+              <li>Contact Us</li>
+              <li class="mt-3">Site Map</li>
+              <li class="mt-3">Affiliate Partner Login</li>
+              <li class="mt-3">Can we send you a check every month?</li>
+              <li class="mt-3">Join our automotoHR affiliate program now!</li>
+            </ul>
+          </div>
+          <div class="mt-4">
+          <div class="mt-lg-0 mt-5 d-flex flex-column align-items-lg-start align-items-center">
+            <h1 class="text-white" style="font-size: 22px; font-weight: 600;">Sales Support</h1>
+            <div class="d-flex align-items-center mt-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+                <a href="tel:(888) 794-0794" class="text-white heading anchar_tang ms-3">
+                  (888) 794-0794 Ext 1
+                </a>
+            </div>
+            <div class="d-flex align-items-center mt-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+                <a href="mailto:accounts@automotohr.com" class="text-white heading anchar_tang ms-3">
+                  accounts@automotohr.com
+                </a>
+            </div>
+          </div>
+          <div class="mt-5 d-flex flex-column align-items-lg-start align-items-center">
+            <h1 class="text-white" style="font-size: 22px; font-weight: 600;">Technical Support</h1>
+            <div class="d-flex align-items-center mt-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+                <a href="tel:(888) 794-0794" class="text-white heading anchar_tang ms-3">
+                  (888) 794-0794 Ext 2
+                </a>
+            </div>
+            <div class="d-flex align-items-center mt-4">
+              <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 30px; height: 30px; border: 1px solid #FFB72B; color: #FFB72B;">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+                <a href="mailto:support@automotohr.com" class="text-white heading anchar_tang ms-3">
+                  support@automotohr.com
+                </a>
+            </div>
+          </div>
+        </div>
+          <div class="copyright_section_footer d-md-flex d-none justify-content-between align-items-center mt-5 pt-4">
+            <h1 class="detail text-white">© 2023 AutomotoHR. All Rights Reserved.</h1>
+            <div class="d-flex align-items-center">
+                <h1 class="detail text-white me-3">Powered by</h1>
+                <img src="./assets/images/footer_logo.png" style="width: 100px; height: 60px;" alt="">
+            </div>
+          </div>
+          <div class="copyright_section_footer d-md-none d-flex flex-column align-items-center mt-5 pt-4">
+            <div class="d-flex align-items-center">
+                <h1 class="detail text-white me-3">Powered by</h1>
+                <img src="./assets/images/footer_logo.png" style="width: 100px; height: 60px;" alt="">
+            </div>
+            <h1 class="detail text-white mt-4">© 2023 AutomotoHR. All Rights Reserved.</h1>
+          </div>
+      </div>
+    </div>
+  </div>
+    </main>
+  </body>
+  <script src="./assets/js/index.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/fac56683c8.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
